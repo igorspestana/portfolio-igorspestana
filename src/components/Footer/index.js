@@ -14,7 +14,7 @@ export function Footer() {
       <Content>
         <SocialMidia>
           <ImgToggleColor
-            link="home#Home"
+            link="#"
             imgWhite={LogoUpImgURL}
             imgDark={LogoUpDarkImgURL}
             imgHover={LogoUpsecondaryImgURL}

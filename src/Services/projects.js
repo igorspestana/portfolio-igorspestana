@@ -1,30 +1,30 @@
-import ParrotMobileImgUrl from '../assets/ImgsProjects/barber-shop.gif';
-import ParrotWebImgUrl from '../assets/ImgsProjects/barber-shop.png';
-import BarberImgUrl from '../assets/ImgsProjects/barber-shop.png';
+import ParrotMobileImgUrl from '../assets/ImgsProjects/parrot-mobile.png';
+import ParrotWebImgUrl from '../assets/ImgsProjects/parrot-web.gif';
+import BarberImgUrl from '../assets/ImgsProjects/barber-shop.gif';
 import PortfolioIgorImgUrl from '../assets/ImgsProjects/portfolio-igor.gif';
 
 
 export const projectsFiles = [
   {
-    name: 'Portfólio Igor',
-    deploy: '#',
-    img: PortfolioIgorImgUrl,
-    repo: '#',
-    techs: 'React.js + Javascript + Styled-Components'
+    name: 'Parrot - Web',
+    deploy: 'https://github.com/igorspestana/parrot-social-network',
+    img: ParrotWebImgUrl,
+    repo: 'https://github.com/igorspestana/parrot-social-network',
+    techs: 'React.js + Typescript + Tailwind'
   },
   {
     name: 'Parrot - Mobile',
-    deploy: '#',
+    deploy: 'https://github.com/igorspestana/parrot-social-network',
     img: ParrotMobileImgUrl,
-    repo: '#',
+    repo: 'https://github.com/igorspestana/parrot-social-network',
     techs: 'React Native'
   },
   {
-    name: 'Parrot - Web',
-    deploy: '#',
-    img: ParrotWebImgUrl,
-    repo: '#',
-    techs: 'React.js + Typescript + Tailwind'
+    name: 'Portfólio Igor',
+    deploy: 'https://github.com/igorspestana/portfolio-igorspestana',
+    img: PortfolioIgorImgUrl,
+    repo: 'https://github.com/igorspestana/portfolio-igorspestana',
+    techs: 'React.js + Javascript + Styled-Components'
   },
   {
     name: 'Barber Shop',
