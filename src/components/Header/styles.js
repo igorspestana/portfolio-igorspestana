@@ -87,8 +87,8 @@ export const ContainerMenu = styled.div`
   top: 0;
   bottom: 0;
   left: ${({ menuItIsVisible }) => menuItIsVisible === true ? '0' : '-230px'};
-  height: 100vh;
-  width: 220px;
+  height: 190px;
+  width: 190px;
 
   transition: left 1s ease;
   background-color: ${({ theme }) => theme.colors.colorBg};
@@ -96,7 +96,6 @@ export const ContainerMenu = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow:${({ theme }) => theme.title === 'dark' ? '-5px 0px 15px #00000080 inset' : '-5px 0px 15px var(--color-tertiary) inset'};
 
   nav{
     display: flex;
@@ -111,7 +110,7 @@ export const ContainerMenu = styled.div`
       color:${({ theme }) => theme.colors.colorTextSecondary};
 
       :hover{
-        text-decoration: underline;
+        text-decoration: none;
         color: ${({ theme }) => theme.colors.colorBgSecondary};
       }
     }
