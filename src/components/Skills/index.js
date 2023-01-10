@@ -8,9 +8,8 @@ import LogoReactImgUrl from '../../icons/logo-react-icon.png';
 import LogoGitImgUrl from '../../icons/logo-git-icon.png';
 import LogoTailwindImgUrl from '../../icons/logo-tailwind-icon.svg';
 import LogoVsCodeImgUrl from '../../icons/logo-vscode-icon.png';
-
 import LogoDockerImgUrl from '../../icons/logo-docker-icon.svg';
-import LogoLinuxMintImgUrl from '../../icons/logo-mint-icon.png';
+import LogoPopsImgUrl from '../../icons/logo-pop-icon.svg';
 import LogoShellImgUrl from '../../icons/logo-bash-icon.png';
 import LogoMongoDBImgUrl from '../../icons/logo-mongodb-icon.svg';
 import LogoExpressImgUrl from '../../icons/logo-express-icon.svg';
@@ -126,9 +125,9 @@ export function Skills() {
             <img src={LogoShellImgUrl} alt="Logo Shell Script" />
           </div>
         </a>
-        <a href="https://linuxmint.com/" >
+        <a href="https://pop.system76.com/" >
           <div>
-            <img src={LogoLinuxMintImgUrl} alt="Logo Linux Mint" />
+            <img src={LogoPopsImgUrl} alt="Logo Pop OS" />
           </div>
         </a>
       </ContainerTop>
