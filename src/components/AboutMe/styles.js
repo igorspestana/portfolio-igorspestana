@@ -23,7 +23,8 @@ export const ContainerAbout = styled.section`
 `
 
 export const ContainerAboutBottom = styled.div`
-  max-width: 765px;
+  max-width:1024px;
+  padding: 48px;
   display: grid;
   grid-template: auto / 2fr 1fr;
   gap: 20px;
@@ -32,11 +33,11 @@ export const ContainerAboutBottom = styled.div`
 
   @media screen and (max-width:  768px){
     grid-template: auto auto / auto;
-    padding: 20px;
     text-align: center;
   }
 
   p{
+    padding-bottom: 16px;
     font-size: 20px;
     font-style: normal;
     z-index: 5;
