@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { Button } from "../Button/styles";
-import CV from '../../assets/igorpestana-cv.pdf';
+import CV from '../../assets/igorspestana-cv.pdf';
 import { ImgToggleColor } from '.././ImgToggleColor/index.js'
 
 import {
@@ -111,7 +111,7 @@ export function FisrtContainer() {
         </ContainerSocialMedia>
         <div>
           <a href={CV} download="IgorPestana-CV" target="blank">
-            <Button>Résumé</Button>
+            <Button>Resume</Button>
           </a>
           <a href="#Contact" >
             <Button>Contact</Button>
