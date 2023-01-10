@@ -1,5 +1,5 @@
 # My Portfolio
-check out: https://portfolio-igorspestana.vercel.app/
+check out: https://igorspestana.vercel.app/
 
 
 > Status: Developing ⚠️ 
