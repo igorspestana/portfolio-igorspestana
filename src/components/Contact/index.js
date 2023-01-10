@@ -18,12 +18,11 @@ import { Container, ContainerContactTop, ContainerContactBottom, CardContainerCo
 
 export function Contact() {
   return (
-    <Container id="Contact">
+    <Container>
       <ContainerContactTop>
         <h1>Get in touch</h1>
-        <h3>I'm seeking out opportunities to collaborate with companies, agencies and individuals.
-        </h3>
-        <br></br>
+        <p>I'm seeking out opportunities to collaborate with companies, agencies and individuals.
+        </p>
         <p>
           Interested in collaborating with me or just say hi?
         </p>

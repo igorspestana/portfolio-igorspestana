@@ -1,33 +1,17 @@
-import styled, { keyframes } from "styled-components"
+import styled from "styled-components"
 
-const OpacityPalavra = keyframes`
-  0%{
-    opacity: 0;
-  }100%{
-    opacity: 1;
-  }
-`
-
-const RevealBlock = keyframes`
-  0%{
-    transform: translateX(0%);
-  }100%{
-    transform: translateX(100%);
-  }
-`
 
 export const ContainerAbout = styled.section`
-  margin: 0 auto;
-  max-width: 765px;
-  margin-top: 150px;
-  padding: 15px;
-
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px;
+  
   h1{
-    font-size: 35px;
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 36px;
+    margin-bottom: 48px;
 
     @media screen and (max-width:  768px){
       font-size:28px ;
@@ -38,76 +22,37 @@ export const ContainerAbout = styled.section`
   }
 `
 
-export const WorksSection = styled.div`
-  display: inline-block;
-  overflow: hidden;
-  position: relative;
-  transform: translateY(10px);
-  @media screen and (max-width: 426px){
-    transform: translateY(6px);
-  }
-
-  ::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #203f5c;
-    transform: translateX(-100%);
-    animation: ${RevealBlock} 4s infinite;
-  }
-`
-
-export const TextAnimation = styled.span`
-  position: relative;
-  opacity: 0;
-  animation: ${OpacityPalavra} 4s infinite;
-`
-
 export const ContainerAboutBottom = styled.div`
+  max-width: 765px;
   display: grid;
   grid-template: auto / 2fr 1fr;
   gap: 20px;
+  align-items: center;
+  
 
   @media screen and (max-width:  768px){
     grid-template: auto auto / auto;
+    padding: 20px;
+    text-align: center;
   }
 
-  p:nth-child(1){
+  p{
     font-size: 20px;
     font-style: normal;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    margin-bottom: 15px;
-    @media screen and (max-width: 426px){
-      font-size: 18px;
-    }
-  }
-  p{
-    margin-bottom: 15px;
-    font-size: 18px;
     z-index: 5;
     @media screen and (max-width: 426px){
       font-size: 16px;
     }
   }
 `
-
-export const ImgProfile = styled.img`
-  width: 250px;
-
-  @media screen and (max-width: 426px){
-    display: none;
-  }
-`
-
-export const CardImgsAndSocial = styled.div`
+export const CardImgProfile = styled.div`
   @media screen and (max-width:  768px){
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
   }
+`
+export const ImgProfile = styled.img`
+  width: 250px;
+  margin: 20px;
 `

@@ -1,22 +1,16 @@
 import styled from "styled-components"
 
 export const Container = styled.section`
-  margin: 0 auto;
-  max-width: 765px;
-  margin-top: 150px;
-  padding: 15px;
-
   display: flex;
   flex-direction: column;
+  position: relative;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
-
-  @media screen and (max-width:  768px){
-    margin-top: 100px;
-  }
+  padding-bottom: 150px;  
 
   h1{
     font-size: 36px;
+    margin-bottom: 48px;
 
     @media screen and (max-width:  768px){
       font-size: 28px;
@@ -28,53 +22,34 @@ export const Container = styled.section`
 `
 
 export const ContainerTop = styled.div`
+  max-width: 765px;
   display: grid;
   grid-template: auto auto / auto auto auto auto;
-  gap: 20px;  
-
-  @media screen and (max-width:  768px){
-    grid-template: auto auto auto auto / auto auto;
-  }
-  @media screen and (max-width: 426px){
-    grid-template: auto auto auto auto auto auto auto auto / auto;
-  }
 
   a{
-    text-decoration: none;
     transition: all 0.5s;
-    border-radius: 8px;
-
     :hover{
-      text-decoration: none;
       transform: scale(1.5);  
-    }
-    :active, :focus{
-      text-decoration: none;
-      transform: translateY(-5px);
-      box-shadow: 0px 0px 5px 1px ${({ theme }) => theme.colors.colorText};    
-    }
-
-    p{
-      color: white;
-    }
+    } 
   }
-
+  
   div{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
-
-    width: 80px;
-    padding: 14px;
+    width: 180px;
+    padding: 20px;
     cursor: pointer;
 
-    @media screen and (max-width: 426px){
-      width: 90vw;
+    img{
+      width: 48px;
     }
 
-    img{
-      width: 42px;
+    @media screen and (max-width:  768px){
+      width: 20vw;
+      img{
+      width: 48px;
+      }
     }
   }
 `

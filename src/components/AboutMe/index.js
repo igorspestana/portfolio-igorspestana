@@ -6,13 +6,11 @@ import ProfileImgURL from '../../assets/igor.png';
 import {
   ContainerAbout,
   ContainerAboutBottom,
-  CardImgsAndSocial,
+  CardImgProfile,
   ImgProfile
 } from "./styles";
 
-export const AboutMe = () => {
-
-
+export function AboutMe() {
   return (
     <ContainerAbout>
       <h1>
@@ -22,16 +20,14 @@ export const AboutMe = () => {
       <ContainerAboutBottom>
         <div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, mollitia, veritatis recusandae aut officiis inventore reprehenderit labore quasi corporis quae molestiae cumque odio atque a molestias voluptate sint? Impedit, enim.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, mollitia, veritatis recusandae aut officiis inventore reprehenderit labore quasi corporis quae molestiae cumque odio atque a molestias voluptate sint? Impedit, enim.
+            Sou graduando em Análise e Desenvolvimento de Sistemas com conhecimentos de desenvolvimento web, infraestrutura e segurança cibernética. Utilizo como stack de desenvolvimento HTML, CSS, JavaScript, React e Node.js. Participei do Programa CiberEducação Cisco Brasil, onde tive a oportunidade de realizar as formações CCNA, CyberOps Associate e Network Security pela Cisco Networking Academy e pelo SENAI/SC. Com essa vivência eu aprendi sobre redes, SIEM, Firewall, hardening, gerenciamento de logs e gestão de incidentes. Gosto de me aventurar com novas tecnologias, aprender novas funcionalidades e me manter constantemente atualizado.
           </p>
         </div>
 
-        <CardImgsAndSocial>
+        <CardImgProfile>
           <ImgProfile src={ProfileImgURL} alt="Igor" />
-        </CardImgsAndSocial>
+        </CardImgProfile>
+
       </ContainerAboutBottom>
 
       <span id="Skills"></span>

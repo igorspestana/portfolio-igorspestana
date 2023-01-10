@@ -100,10 +100,6 @@ export function Header() {
         <a href="#Contact">Contact</a>
       </NavBar>
 
-      <span> </span>
-      <span> </span>
-      <span> </span>
-
       <ContainerSettings>
         <SwitchTheme isVisible={themeVisible}>
           <button>

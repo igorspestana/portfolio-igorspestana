@@ -27,7 +27,6 @@ export function Projects() {
           </a>
 
           <ContainerBottomCard>
-            {/* <NumberToProject>{numberProject(index)}</NumberToProject> */}
             <a href={project.repo} ><Button>Repository</Button></a>
           </ContainerBottomCard>
 

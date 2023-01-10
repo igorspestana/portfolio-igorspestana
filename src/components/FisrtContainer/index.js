@@ -9,7 +9,6 @@ import {
   ContainerHomeTop,
   ContainerHomeBottom,
   ContainerSocialMedia,
-  /* ContainerSocialMedia768, */
   WorksSection,
   TextAnimation,
 } from "./styles";
@@ -119,45 +118,6 @@ export function FisrtContainer() {
           </a>
         </div>
       </ContainerHomeBottom>
-
-      {/* <ContainerSocialMedia768>
-        <ImgToggleColor
-          link="https://github.com/igorspestana"
-          imgWhite={LogoGitHubImgURL}
-          imgDark={LogoGitHubDarkImgURL}
-          imgHover={LogoGitHubSecondaryImgURL}
-          alt="Logo GitHub"
-        />
-        <ImgToggleColor
-          link="https://www.linkedin.com/in/igorspestana/"
-          imgWhite={LogoLinkedinImgURL}
-          imgDark={LogoLinkedinDarkImgURL}
-          imgHover={LogoLinkedinSecondaryImgURL}
-          alt="Logo LinkedIn"
-        />
-        <ImgToggleColor
-          link="https://medium.com/@igorspestana"
-          imgWhite={LogoMediumImgURL}
-          imgDark={LogoMediumDarkImgURL}
-          imgHover={ogoMediumSecondaryImgURL}
-          alt="Logo Medium"
-        />
-        <ImgToggleColor
-          link="https://api.whatsapp.com/send/?phone=5521976851146&text&type=phone_number&app_absent=0"
-          imgWhite={LogoWhatsappImgURL}
-          imgDark={LogoWhatsappDarkImgURL}
-          imgHover={LogoWhatsappSecondaryImgURL}
-          alt="Logo Whatsapp"
-        />
-        <ImgToggleColor
-          link="https://www.instagram.com/igorspestana/"
-          imgWhite={LogoInstagramImgURL}
-          imgDark={LogoInstagramDarkImgURL}
-          imgHover={LogoInstagramSecondaryImgURL}
-          alt="Logo Instagram"
-        />
-      </ContainerSocialMedia768> */}
-
 
       <span id="AboutMe"></span>
     </ContainerHome>

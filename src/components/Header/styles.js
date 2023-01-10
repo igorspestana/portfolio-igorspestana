@@ -7,26 +7,12 @@ export const Container = styled.header`
   position: sticky;
   top: 0;
   padding: 10px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   @media screen and (max-width:  768px){
     padding: 0px;
-  }
-`
-
-export const Logo = styled.div`
-  margin-left: 14px;
-  padding: 5px;
-  border-radius: 5px;
-  font-weight: 800;
-  font-size: 40px;
-  color: ${({ theme }) => theme.colors.colorBgSecondary};
-
-  @media screen and (max-width:  768px){
-    display: none;
   }
 `
 
@@ -44,7 +30,7 @@ export const NavBar = styled.div`
     color:${({ theme }) => theme.colors.colorTextSecondary};
 
     :hover{
-      text-decoration: underline;
+      text-decoration: none;
       color: ${({ theme }) => theme.colors.colorBgSecondary};
     }
   }
@@ -96,7 +82,6 @@ export const SwitchTheme = styled.div`
   }
 `
 
-// === Menu ===
 export const ContainerMenu = styled.div`
   position: fixed;
   top: 0;
