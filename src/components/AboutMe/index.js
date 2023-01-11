@@ -24,7 +24,7 @@ export function AboutMe() {
             I’m a software developer who loves solving problems.
           </h3>
           <p>
-            I‘m a fast learner and capable to pick up and relate skills easily. I like to keep up to date, venture into new technologies and explore new features. My personality type is <a href="https://www.16personalities.com/intj-personality" rel="noreferrer" target="_blank">INTJ-T</a>.
+            I‘m a fast learner and capable on picking up and relating skills easily. I like keeping up to date, venture into new technologies and explore new features. My personality type is <a href="https://www.16personalities.com/intj-personality" rel="noreferrer" target="_blank">INTJ-T</a>.
             Currently, I’m graduating in Systems Analysis and Development and furthering my studies in web and mobile development.
           </p>
         </div>
