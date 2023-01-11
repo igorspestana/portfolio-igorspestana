@@ -12,7 +12,6 @@ export const ContainerAbout = styled.section`
   h1{
     font-size: 36px;
     margin-bottom: 48px;
-
     @media screen and (max-width:  768px){
       font-size:28px ;
     }
@@ -23,37 +22,31 @@ export const ContainerAbout = styled.section`
 `
 
 export const ContainerAboutBottom = styled.div`
-  max-width:1024px;
-  padding: 48px;
-  display: grid;
-  grid-template: auto / 2fr 1fr;
-  gap: 20px;
+  max-width:800px;
+  padding: 0px 20px ;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  
-
+  gap: 48px; 
   @media screen and (max-width:  768px){
-    grid-template: auto auto / auto;
+    flex-direction: column;
     text-align: center;
+    gap:20px
   }
 
   p{
-    padding-bottom: 16px;
     font-size: 20px;
     font-style: normal;
-    z-index: 5;
+    text-align: justify; 
+    margin: 10px;
     @media screen and (max-width: 426px){
       font-size: 16px;
+      text-align: center; 
     }
   }
-`
-export const CardImgProfile = styled.div`
-  @media screen and (max-width:  768px){
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
   }
-`
-export const ImgProfile = styled.img`
-  width: 250px;
-  margin: 20px;
 `

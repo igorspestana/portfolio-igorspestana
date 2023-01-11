@@ -6,8 +6,6 @@ import ProfileImgURL from '../../assets/igor.png';
 import {
   ContainerAbout,
   ContainerAboutBottom,
-  CardImgProfile,
-  ImgProfile
 } from "./styles";
 
 export function AboutMe() {
@@ -25,15 +23,10 @@ export function AboutMe() {
           <p>
             Atualmente estou me graduando em Análise e Desenvolvimento de Sistemas e aprofundando os meus estudos em desenvolvimento web e mobile.
           </p>
-          <p>
-            Estou aberto para novas oportunidades profissionais.
-          </p>
         </div>
-
-        <CardImgProfile>
-          <ImgProfile src={ProfileImgURL} alt="Igor" />
-        </CardImgProfile>
-
+        <div>
+          <img src={ProfileImgURL} alt="Igor" />
+        </div>
       </ContainerAboutBottom>
 
       <span id="Skills"></span>
