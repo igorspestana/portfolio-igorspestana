@@ -25,8 +25,6 @@ export function AboutMe() {
           </h3>
           <p>
             I‘m a fast learner and capable to pick up and relate skills easily. I like to keep up to date, venture into new technologies and explore new features. My personality type is <a href="https://www.16personalities.com/intj-personality" rel="noreferrer" target="_blank">INTJ-T</a>.
-          </p>
-          <p>
             Currently, I’m graduating in Systems Analysis and Development and furthering my studies in web and mobile development.
           </p>
         </div>

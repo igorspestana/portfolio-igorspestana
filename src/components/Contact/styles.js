@@ -8,16 +8,17 @@ export const Container = styled.section`
 `
 
 export const ContainerContactTop = styled.div`
+  padding: 0px 20px ;
   h1{
-    font-size: 32px;
+    font-size: 48px;
     text-align: center;
     margin-bottom: 48px;
 
     @media screen and (max-width: 768px){
-      font-size: 28px;
+      font-size: 42px;
     } 
     @media screen and (max-width: 426px){
-      font-size: 24px;
+      font-size: 36px;
     }
   }
   

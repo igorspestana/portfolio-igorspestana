@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.section`
-   display: flex;
+  display: flex;
   flex-direction: column;
   position: relative;
   justify-content: center;
@@ -15,15 +15,14 @@ export const Container = styled.section`
   }
 
   h1{
-    font-size: 36px;
-    text-align: center;
+    font-size: 48px;
     margin-bottom: 48px;
-
+    text-align: center;
     @media screen and (max-width:  768px){
-      font-size: 28px;
+      font-size: 42px;
     }
     @media screen and (max-width: 426px){
-      font-size: 24px;
+      font-size: 36px;
     }
   }
 `

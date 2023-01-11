@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.footer`
-  max-width: 1024px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -19,10 +19,15 @@ export const Content = styled.div`
   gap: 20px;
   font-weight: 700;
   font-size: 14px;
+  text-align: center;
 
   @media screen and (max-width:  768px){
     flex-direction: column;
     gap: 10px;
+  }
+
+  p {
+    font-weight: 300;
   }
 
   span{

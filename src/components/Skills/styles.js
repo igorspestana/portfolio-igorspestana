@@ -9,20 +9,20 @@ export const Container = styled.section`
   padding-bottom: 150px;  
 
   h1{
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 48px;
-
+    text-align: center;
     @media screen and (max-width:  768px){
-      font-size: 28px;
+      font-size: 42px;
     }
     @media screen and (max-width: 426px){
-      font-size: 24px;
+      font-size: 36px;
     }
   }
 `
 
 export const ContainerTop = styled.div`
-  max-width: 765px;
+  max-width:800px;
   display: grid;
   grid-template: auto auto / auto auto auto auto;
 

@@ -22,11 +22,9 @@ export function Contact() {
       <ContainerContactTop>
         <h1>Get in touch</h1>
         <p>I'm seeking out opportunities to collaborate with companies, agencies and individuals.
-        </p>
-        <p>
+
           Interested in collaborating with me or just say hi?
-        </p>
-        <p>
+
           Feel free to reach out through any platforms bellow:
         </p>
       </ContainerContactTop>

@@ -21,7 +21,7 @@ export function Footer() {
             alt="Logo GitHub"
           />
         </SocialMidia>
-        <p>© Copyright 2023 Igor S. Pestana Software Developer</p>
+        <p>Copyright ©  2023 Igor S. Pestana • Florianópolis based Software Developer</p>
       </Content>
     </Container>
   );

@@ -18,6 +18,7 @@ export const CardProjects = styled.div`
   display: flex;
   flex-direction: column;
   justify-content:space-around ;
+  text-align: center;
   gap: 8px;
 `
 
@@ -59,14 +60,7 @@ export const TechsProject = styled.p`
   font-size: 14px;
   height: 40px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   margin: 20px 0px;
 `
-
-/* export const ContainerBottomCard = styled.div`
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  gap: 10px;
-` */
