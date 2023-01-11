@@ -10,13 +10,13 @@ export const ContainerAbout = styled.section`
   padding-bottom: 150px;
   
   h1{
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 48px;
     @media screen and (max-width:  768px){
-      font-size:28px ;
+      font-size:42px ;
     }
     @media screen and (max-width: 426px){
-      font-size: 24px;
+      font-size: 36px;
     }
   }
 `
@@ -26,6 +26,7 @@ export const ContainerAboutBottom = styled.div`
   padding: 0px 20px ;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   gap: 48px; 
   @media screen and (max-width:  768px){
@@ -34,10 +35,35 @@ export const ContainerAboutBottom = styled.div`
     gap:20px
   }
 
+  h2{
+   text-align: center;
+   font-size: 36px;
+   margin-bottom: 24px;
+   @media screen and (max-width:  768px){
+      font-size:24px ;
+    }
+    @media screen and (max-width: 426px){
+      font-size: 20px;
+    }
+  }
+
+  h3{
+   text-align: center;
+   font-size: 24px;
+   margin-bottom: 24px;
+   @media screen and (max-width:  768px){
+      font-size:20px ;
+    }
+    @media screen and (max-width: 426px){
+      font-size: 18px;
+    }
+  }
+
+
   p{
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    text-align: justify; 
+    text-align: center; 
     margin: 10px;
     @media screen and (max-width: 426px){
       font-size: 16px;
@@ -45,8 +71,8 @@ export const ContainerAboutBottom = styled.div`
     }
   }
   img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
   }
 `

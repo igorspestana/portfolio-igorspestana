@@ -99,15 +99,15 @@ export const ContainerHomeBottom = styled.div`
 `
 export const ContainerSocialMedia = styled.div`
   display: flex;
-  justify-content: flex-end;
-  align-self: flex-end;
+  justify-content: flex;
+  align-self: flex;
 
   img{
     margin: 48px 7px;
     width: 32px;
     
     @media screen and (max-width:  768px){
-      margin: 48px 3px;
+      margin: 48px 5px;
     }
   }
 `

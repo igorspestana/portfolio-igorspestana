@@ -111,10 +111,10 @@ export function FisrtContainer() {
         </ContainerSocialMedia>
         <div>
           <a href={CV} download="IgorPestana-CV" target="blank">
-            <Button>Resume</Button>
+            <Button>My Resume</Button>
           </a>
           <a href="#Contact" >
-            <Button>Contact</Button>
+            <Button>Say Hello</Button>
           </a>
         </div>
       </ContainerHomeBottom>

@@ -17,11 +17,17 @@ export function AboutMe() {
 
       <ContainerAboutBottom>
         <div>
+          <h2>
+            Hi, I’m Igor. Nice to meet you.
+          </h2>
+          <h3>
+            I’m a software developer who loves solving problems.
+          </h3>
           <p>
-            Sou um desenvolvedor de software que ama resolver problemas. Aprendo rápido e sou capaz de adquirir e correlacionar habilidades com facilidade. Gosto de me aventurar com novas tecnologias, explorar novas funcionalidades e me manter constantemente atualizado.
+            I‘m a fast learner and capable to pick up and relate skills easily. I like to keep up to date, venture into new technologies and explore new features. My personality type is <a href="https://www.16personalities.com/intj-personality" rel="noreferrer" target="_blank">INTJ-T</a>.
           </p>
           <p>
-            Atualmente estou me graduando em Análise e Desenvolvimento de Sistemas e aprofundando os meus estudos em desenvolvimento web e mobile.
+            Currently, I’m graduating in Systems Analysis and Development and furthering my studies in web and mobile development.
           </p>
         </div>
         <div>
