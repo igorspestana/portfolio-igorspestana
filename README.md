@@ -2,7 +2,6 @@
 check out: https://igorspestana.vercel.app/
 
 
-> Status: Developing ⚠️ 
 
 ## Technologies used:
 
