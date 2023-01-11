@@ -1,7 +1,7 @@
 # My Portfolio
 check out: https://igorspestana.vercel.app/
 
-
+<img  style="border-radius: 5px" src="./midias/portfolio-igor.gif" alt="iportfolio">
 
 ## Technologies used:
 
