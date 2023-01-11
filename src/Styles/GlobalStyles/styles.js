@@ -20,7 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0px;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color:  ${({ theme }) => theme.colors.colorText};
   }
 
@@ -32,7 +32,6 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
 
     :hover{
-      text-decoration: underline;
       color: var(--color-secondary);
     }
   }
