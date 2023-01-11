@@ -10,15 +10,14 @@ const animationOpacity = keyframes`
 `
 
 export const CardProjects = styled.div`
-  border-radius: 10px;
   min-width: 280px;
-  height: 350px;
+  height: 320px;
   padding: 12px;
-  margin: 0px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
+  justify-content:space-around ;
   gap: 8px;
 `
 
@@ -31,11 +30,11 @@ export const ContainerTopCard = styled.div`
   position: relative;
 
   :hover{
-    transform: scale(1.02);
+    transform: scale(1.1);
   }
 
   &:hover::before{
-    content: 'Open';
+    content: 'Open Repository';
     cursor: pointer;
     width: 100%;
     height: 100%;
@@ -52,18 +51,22 @@ export const ContainerTopCard = styled.div`
 
   img{
     width: 100%;
-    border-radius: 4px;
   }
 `
 
 export const TechsProject = styled.p`
   color: #afafaf;
   font-size: 14px;
+  height: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 20px 0px;
 `
 
-export const ContainerBottomCard = styled.div`
+/* export const ContainerBottomCard = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   gap: 10px;
-`
+` */

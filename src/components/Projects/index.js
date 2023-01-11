@@ -1,13 +1,13 @@
 import React from "react";
 
 import { projectsFiles } from "../../Services/projects";
-import { Button } from "../Button/styles";
+/* import { Button } from "../Button/styles"; */
 
 import {
   CardProjects,
   ContainerTopCard,
   TechsProject,
-  ContainerBottomCard,
+  /* ContainerBottomCard, */
 } from "./style";
 
 export function Projects() {
@@ -18,6 +18,7 @@ export function Projects() {
         <CardProjects key={index}>
 
           <h3>{project.name}</h3>
+
           <TechsProject>{project.techs}</TechsProject>
 
           <a href={project.deploy} >
@@ -25,10 +26,9 @@ export function Projects() {
               <img src={project.img} alt="Project" />
             </ContainerTopCard>
           </a>
-
-          <ContainerBottomCard>
+          {/*  <ContainerBottomCard>
             <a href={project.repo} ><Button>Repository</Button></a>
-          </ContainerBottomCard>
+          </ContainerBottomCard> */}
 
         </CardProjects>
       )}

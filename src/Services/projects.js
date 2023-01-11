@@ -6,21 +6,21 @@ import PortfolioIgorImgUrl from '../assets/ImgsProjects/portfolio-igor.gif';
 
 export const projectsFiles = [
   {
-    name: 'Parrot - Web',
+    name: 'Parrot Web',
     deploy: 'https://github.com/igorspestana/parrot-social-network',
     img: ParrotWebImgUrl,
     repo: 'https://github.com/igorspestana/parrot-social-network',
-    techs: 'React.js + Typescript + Tailwind'
+    techs: 'React.js + Typescript + Tailwind + Node.js + Express.js + MongoDB + Rabbitmq + Minio + Docker'
   },
   {
-    name: 'Parrot - Mobile',
+    name: 'Parrot Mobile',
     deploy: 'https://github.com/igorspestana/parrot-social-network',
     img: ParrotMobileImgUrl,
     repo: 'https://github.com/igorspestana/parrot-social-network',
-    techs: 'React Native'
+    techs: 'React Native + Typescript'
   },
   {
-    name: 'Portfólio Igor',
+    name: 'My Portfolio',
     deploy: 'https://github.com/igorspestana/portfolio-igorspestana',
     img: PortfolioIgorImgUrl,
     repo: 'https://github.com/igorspestana/portfolio-igorspestana',
@@ -28,7 +28,7 @@ export const projectsFiles = [
   },
   {
     name: 'Barber Shop',
-    deploy: 'https://barber-shop-one-page.vercel.app/',
+    deploy: 'https://github.com/igorspestana/barber-shop-one-page',
     img: BarberImgUrl,
     repo: 'https://github.com/igorspestana/barber-shop-one-page',
     techs: 'HTML + CSS'

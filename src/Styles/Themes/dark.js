@@ -3,8 +3,8 @@ export const ThemeDark = {
   colors: {
     colorText: '#ffffff',
     colorTextSecondary: '#2d5982',
-    colorBg: '#0f2433',
-    colorBgBlur: '#0f2433',
+    colorBg: '#0B1B26',
+    colorBgBlur: '#0B1B26',
     colorBgSecondary: "#ffffff"
   },
 }
